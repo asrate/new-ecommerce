@@ -2,10 +2,10 @@ import React from "react";
 import classes from "./category.module.css";
 
 function catagoryCard({ data }) {
-  console.log(data.img);
+  console.log(data);
   return (
     <div className={classes.category}>
-      <a href="">
+      <a href={`http://127.0.0.1:5173/category/${data.name}`}>
         <span>
           <h1>{data.title}</h1>
         </span>

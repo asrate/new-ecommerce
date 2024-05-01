@@ -3,14 +3,16 @@ import Header from "./components/Header/Header";
 import Carsousel from "./components/carousel/Carsousel";
 import Category from "./components/catagory/category";
 import "./App.css";
+import Product from "./components/products/Product";
 
 function App() {
   return (
     <>
       <div>
-        <Header />
+        {/* <Header /> */}
         <Carsousel />
         <Category />
+        <Product />
       </div>
     </>
   );
