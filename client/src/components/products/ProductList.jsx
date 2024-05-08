@@ -15,6 +15,7 @@ const GET_NEW_ARRIVALS = gql`
         freeDelivery
         originalPrice
         usdPrice
+        usdPrice
         color {
           id
           name
